@@ -1,0 +1,67 @@
+table{
+
+    text-align:center;
+    border-collapse:collapse;
+    width:100%;
+    font-family: 'Teko', sans-serif;
+    font-size: 12px;
+
+}
+tr:last-child{
+    background-color:#2F75B5;
+    color:white;
+    border-bottom:solid 2px white;
+    font-weight:bold;
+}
+
+.encabezados-almacen{
+    background-color:#2F75B5;
+    color:white;
+    border-bottom:solid 2px white;
+
+
+
+}
+.encabezados{
+    background-color:#2F75B5;
+    color:white;
+    font-family: 'Teko', sans-serif;
+
+    border:solid 2px white;
+}
+.encabezados-medios{
+    background-color:#2F75B5;
+    color:white;
+    font-family: 'Teko', sans-serif;
+    border-bottom:solid 2px white;
+
+}
+.encabezados-years{
+    background-color:#2F75B5;
+    color:white;
+    font-family: 'Teko', sans-serif;
+    border:solid 2px white;
+
+}
+
+
+th,td{
+    border-right:solid 1px black;
+
+    border-left:solid 1px black;
+
+    padding:5px;
+
+}
+tr:nth-child(even){
+
+    background-color:#ddd;
+}
+
+.medios{
+    font-weight: bold;
+}
+
+#cedula{width: 50%; float:left; height:175px; }
+
+#logo{width: 50%;float:right;height:175px; }
