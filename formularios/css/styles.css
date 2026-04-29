@@ -1,0 +1,138 @@
+*{
+  margin: 0;
+  padding: 0;
+
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -o-box-sizing: border-box;
+}
+
+body{
+  background: #C8C8C8;
+}
+
+header{
+  min-width: 300px;
+  width: 60%;
+  margin: 2% auto 0;
+  padding: 2%;
+  background: #245374;
+  color: #FFFF;
+}
+
+section{
+  min-width: 300px;
+  width: 60%;
+  margin: 0 auto 2%;
+  padding: 2% 2% 0;
+  background: #FFFF;
+}
+
+form{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.label{
+  display: block;
+  width: 30%;
+}
+
+.input{
+  display: block;
+  width: 30%;
+  margin-bottom: 6%;
+  outline: none;
+  border: none;
+  border-bottom: solid #C8C8C8 .2rem;
+  transition: all .5s;
+}
+
+.input:focus{
+	border-bottom: solid #245374 .2rem;
+}
+
+.oculto{
+  visibility: hidden;
+}
+
+#oculto{
+  visibility: hidden;
+}
+
+.btn{
+  display: block;
+  width: 30%;
+  margin-bottom: 6%;
+  background: #245374;
+  color: #FFFF;
+}
+
+.login{
+  width: 95%;
+}
+
+#encabezado_login{
+  min-width: 300px;
+  width: 25%;
+  margin: 8% auto 0;
+  padding: 1%;
+  background: #245374;
+  color: #FFFF;
+}
+
+#cuerpo_login{
+  min-width: 300px;
+  width: 25%;
+  margin: auto;
+  padding: 2%;
+  background: #FFFF;
+}
+
+#subtitulo{
+  font-size: 22px;
+}
+
+.salir{
+  position: absolute;
+  top: 8%;
+  right: 8%;
+  width: 50px;
+  text-align: center;
+}
+
+.salir p{
+  margin-top: -10px;
+}
+
+.footer{
+  width: 100%;
+}
+
+.ticket_footer{
+  display: inline-block;
+  width: 19%;
+}
+
+.boton_footer{
+  display: inline-block;
+  float: right;
+}
+
+.menu{
+  width: 4%;
+  font-size: 14px;
+  text-align: center;
+}
+
+.menu:hover{
+  color: #245374;
+  cursor: pointer;
+}
+
+.no_editar{
+  background: #FFFF;
+  color: #99A3A4;
+}
