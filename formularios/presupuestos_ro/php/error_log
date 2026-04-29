@@ -1,0 +1,8 @@
+[26-Jan-2023 19:14:37 UTC] PHP Warning:  Undefined variable $categoria in /home/hholdn4/public_html/formularios/presupuestos_ro/php/anios.php on line 9
+[26-Jan-2023 19:14:41 UTC] PHP Warning:  Undefined variable $categoria in /home/hholdn4/public_html/formularios/presupuestos_ro/php/busqueda.php on line 14
+[26-Jan-2023 19:14:41 UTC] PHP Warning:  Undefined variable $categoria in /home/hholdn4/public_html/formularios/presupuestos_ro/php/busqueda.php on line 111
+[26-Jan-2023 19:14:52 UTC] PHP Warning:  Undefined variable $categoria in /home/hholdn4/public_html/formularios/presupuestos_ro/php/actualizar.php on line 137
+[26-Jan-2023 19:14:52 UTC] PHP Warning:  Undefined variable $categoria in /home/hholdn4/public_html/formularios/presupuestos_ro/php/actualizar.php on line 137
+[27-Jan-2023 15:31:44 UTC] PHP Warning:  Undefined variable $categoria in /home/hholdn4/public_html/formularios/presupuestos_ro/php/anios.php on line 9
+[27-Jan-2023 15:31:47 UTC] PHP Warning:  Undefined variable $categoria in /home/hholdn4/public_html/formularios/presupuestos_ro/php/busqueda.php on line 14
+[27-Jan-2023 15:31:47 UTC] PHP Warning:  Undefined variable $categoria in /home/hholdn4/public_html/formularios/presupuestos_ro/php/busqueda.php on line 111
