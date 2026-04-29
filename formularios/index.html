@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head><meta charset="utf-8">
+    
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Presupuestos</title>
+
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/alertify.css">
+    <link rel="stylesheet" href="css/styles.css">
+	<script src="js/live.js" charset="utf-8"></script>
+    <script src="js/fontawesome-all.js" charset="utf-8"></script>
+    <script src="js/jquery-3.3.1.min.js" charset="utf-8"></script>
+    <script src="js/alertify.js" charset="utf-8"></script>
+    <script src="js/funciones.js" charset="utf-8"></script>
+  </head>
+  <body>
+
+    <div id='avisos'>
+     <!-- <div id='aviso'>
+        <header>
+          <h1><i class="fas fa-users"></i> <span id="subtitulo"> Aviso importante </span> </h1>
+        </header>
+        <section>
+          <ul>
+            <li>Para dar de alta a un cliente, ya no es necesario ingresar un ticket.</li>
+            <li>Por otra parte...</li>
+            <li>Ahora es posible registrar a un cliente mediante su correo o en su defecto, su telefono.</li>
+            <li>Es indispensable contar con al menos uno de estos dos campos.</li>
+          </ul>
+        </section>
+      </div>
+      -->
+      <div id='login'>
+        <header id='encabezado_login'>
+          <h1><i class="fas fa-users"></i> <span id="subtitulo"> Presupuestos </span> </h1>
+        </header>
+        <section id="cuerpo_login">
+          <form id='form_login' onsubmit='return false;' method='post' autocomplete='off'>
+            <label class='label login' for='usuario'> <i class="fas fa-user"></i> Usuario</label>
+            <input class='input login' type='text' id='usuario' autofocus>
+            <label class='label login' for='clave'> <i class="fas fa-key"></i> Contraseña</label>
+            <input class='input login' type='password' id='clave'>
+
+            <input class='btn' id='oculto'>
+            <input class='btn' type='submit' id='ingresar' value='Ingresar'>
+          </form>
+        </section>
+      </div>
+    </div>
+
+  </body>
+
+</html>
